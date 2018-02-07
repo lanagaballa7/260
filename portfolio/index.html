@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lana Gaballa</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+  </head>
+  <body>
+      <header>
+      <img src="" alt="logo">
+         <div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+       </header>
+      
+      
+      <div id="container">
+          <div id="content">
+            <div class="row">
+              <div class="work">
+                <img src="http://via.placeholder.com/400x400" alt="work" class="responsive-img">
+                <p class="caption">About work</p>
+              </div> <!-- .col -->
+             <div class="work">
+              <img src="http://via.placeholder.com/400x400" alt="work" class="responsive-img">
+                 <p class="caption">About work</p>
+            </div> <!-- .col -->
+          </div> <!-- .row -->
+          <div class="row">
+            <div class="work">
+              <img src="http://via.placeholder.com/400x400" alt="work" class="responsive-img">
+                <p class="caption">About work</p>
+            </div>
+             <div class="work">
+              <img src="http://via.placeholder.com/400x400" alt="work" class="responsive-img">
+              <p class="caption">About work</p>
+            </div>
+            </div>
+          </div> <!-- #content -->
+          <footer>
+          <p>To learn more about my work email me at name@domain.com or call 111-234-6780</p>
+          </footer>
+    </div>
+ <script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+  </body>
+</html>
